@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+body {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+h2 {
+	margin: 0;
+	color: #4b5157;
+	font-size: 18px;
+	font-weight: 700;
+	transition: 200ms color;
+}
+
+h3 {
+	margin: 0 0 5px 0;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #4b5157;
+	font-size: 18px;
+	font-weight: 300;
+	border-bottom: 1px solid #38c7d3;
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #4b5157;
+	font-size: 18px;
+	font-weight: 300;
+	display: inline-block;
+}
+
+header {
+	background-color: #f6f6f6;
+	padding-bottom: 35px;
+	padding-top: 25px;
+}
+
+header .logo, .name-sofa .logo {
+	text-decoration: none;
+	color: #4b5157;
+	font-size: 24px;
+	font-weight: 700;
+	padding-right: 
+}
+
+header .input-text {
+	width: 370px;
+	height: 35px;
+	border: 1px solid #f0f0f0;
+	font-size: 16px;
+	color: #4b5157;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+	transition: 200ms box-shadow;
+}
+
+header .search:hover .input-text {
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+header .button-search {
+	height: 35px;
+	background-color: #f6f6f6;
+	border: 1px solid #f6f6f6;
+}
+
+header .button-search .text-awesome {
+	display: inline-block;
+	color: #49c9d5;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+main .filters {
+	background-color: #f6f6f6;
+	border: 1px solid #f0f0f0;
+	padding-bottom: 25px;
+	margin-top: 25px;
+}
+
+main .filters .caption {
+	background-color: #edeef0;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 15px 0 15px 15px;
+}
+
+main .filters .filter {
+	padding: 5px 15px 0 15px;
+}
+
+main .filters .filter p {
+	margin: 0;
+	display: inline-block;
+	color: #626873;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+main .filters .filter label {
+	padding-top: 5px;
+	padding-left: 5px;
+	color: #626873;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+ main .filters .filter .range {
+ 	display: block;
+ }
+
+ main .title-wrap {
+ 	padding: 0 15px;
+ }
+
+ main .title-1 {
+ 	padding-top: 40px;
+ 	padding-bottom: 15px;
+ }
+
+main .content-block {
+	margin-top: 30px;
+}
+
+ main .content-block .img {
+ 	text-decoration: none;
+ }
+
+main .content-block .img:hover h2 {
+	color: #32c5d2;
+}
+
+main .content-block .img .image {
+	max-width: 100%;
+	height: auto;
+}
+
+ main .content-block .img .title {
+ 	padding-top: 15px;
+ }
+
+main .transition {
+	padding-top: 20px;
+}
+
+main .transition a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: #626873;
+	transition: 200ms color;
+}
+
+main .transition a:hover {
+	color: #32c5d2;
+}
+
+main .transition span {
+	color: #626873;
+	padding-right: 10px;
+}
+
+main .name-sofa {
+	padding-top: 20px;
+}
+
+main .image {
+	margin-top: 20px;
+}
+
+main .image img {
+	max-width: 100%;
+	height: auto;
+}
+
+main .characteristic .text-box {
+	border-bottom: 1px solid #38c7d3;
+}
+
+main .characteristic .text-box p {
+	padding-left: 30px;
+	display: inline-block;
+	color: #4b5157;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+main {
+	padding-bottom: 50px;
+}
+
+.line input,.comment input{
+	width:80px;
+	text-align:center;
+}
+
+.line{
+	display:inline-block;
+	width:20%;
+	padding:5px;
+	margin:0px 10px 0px 10px;
+	text-align:center;
+}
+
+.maintext {
+	margin: 0 0 5px 0;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #4b5157;
+	font-size: 18px;
+	font-weight: 700;
+	border-bottom: 1px solid #38c7d3;
+}
+
+.comment {
+	color: #4b5157;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+p input[type="submit"]{
+	display:block;
+	margin:auto;
+}
+
+.button{
+	background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+	background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #5BC9E1));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+	padding: 3px 7px;
+	color: #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #666;
+}
+
+.td-border {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.td-border-right{
+	border-right: 1px solid black;
+}
+
+.filter td {
+	padding: 1px;
+}
+
+#closelook{
+	display:none;
+}
